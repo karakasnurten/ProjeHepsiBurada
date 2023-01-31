@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.591">
+    <testcase classname="US ISMI" name="Test Case" time="6.344">
+        <failure message="For input string: &quot;1,09&quot;" type="java.lang.NumberFormatException">
+            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi para birimlerini girer....passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................failed
+
+StackTrace:
+java.lang.NumberFormatException: For input string: "1,09"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at stepdefinitions.Test01.verilenDegerlerinIkiDenKucukOldugunuDogrular(Test01.java:42)
+	at ✽.Verilen degerlerin iki den kucuk oldugunu dogrular(file:///C:/Users/mserk/IdeaProjects/com.t105_Cucumber/src/test/resources/features/deneme.feature:10)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
